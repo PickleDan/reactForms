@@ -147,7 +147,7 @@ export default class MyForm extends React.Component {
           <tbody>
             <tr>
               <td>acceptRules</td>
-              <td>{acceptRules}</td>
+              <td>{acceptRules ? "true" : "false"}</td>
             </tr>
             <tr>
               <td>address</td>
